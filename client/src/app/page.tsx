@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Header from '@/components/Header'
 import VideoSection from '@/components/VideoSection'
 import AnimatedBackground from '@/components/animatedbg'
-import FeatureSection from '@/components/features'
+// import FeatureSection from '@/components/features'
 import TestimonialSection from '@/components/testimonial'
 import EnvironmentalSection from '@/components/env'
 
@@ -88,7 +88,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <FeatureSection />
+        {/* <FeatureSection /> */}
         <TestimonialSection />
         <EnvironmentalSection />
       </main>
