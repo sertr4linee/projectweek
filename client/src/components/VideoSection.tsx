@@ -2,9 +2,9 @@
 
 export default function VideoSection() {
   return (
-    <div className="relative mt-16 sm:mt-24 md:mt-32">
+    <div className="relative mt-24 sm:mt-32 md:mt-40">
       {/* Vidéo Ona */}
-      <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px] absolute -top-[250px] sm:-top-[300px] md:-top-[400px] left-1/2 -translate-x-1/2">
+      <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px] absolute -top-[200px] sm:-top-[250px] md:-top-[300px] left-1/2 -translate-x-1/2">
         <div className="absolute inset-0 rounded-full bg-[#FF7900] opacity-10 blur-2xl"></div>
         <video
           autoPlay
